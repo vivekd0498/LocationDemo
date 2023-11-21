@@ -56,7 +56,7 @@ export const style = StyleSheet.create({
     },
     mainViewStyle: {
       flex: 1,
-      // paddingTop: statusBar,
+      paddingTop: statusBar,
     },
     innerMainView: {
       flex: 1,
@@ -73,7 +73,7 @@ export const style = StyleSheet.create({
       paddingLeft: wp(16),
       borderRadius: wp(25),
       fontSize: fontSize(16),
-      backgroundColor: colors.skyBlue,
+      backgroundColor: colors.headerBg,
     },
   });
 
