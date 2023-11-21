@@ -1,0 +1,3 @@
+// Images
+export const images = {
+};
